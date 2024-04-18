@@ -1,0 +1,27 @@
+#include "main.h"
+/**
+* rev_string - reverse string
+*
+* @s: string
+*/
+void rev_string(char* s)
+{
+int len;
+/* _strlen - len of string*/
+len = _strlen(s);
+int t;
+char tmp[100];
+for (t = 0; len >= 0; len--)
+{
+
+tmp[t] = s[len];
+t++;
+}
+int i = 0;
+len = _strlen(s);
+for (; s[len] != tmp[len]; i++)
+{
+s[i] = tmp[i];
+}
+   
+}

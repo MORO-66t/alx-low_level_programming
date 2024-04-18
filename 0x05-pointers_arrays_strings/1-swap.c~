@@ -1,0 +1,13 @@
+#include "main.h"
+/**
+* swap_int - swap 
+* @a : num1
+* @b : num 2
+*/
+void swap_int(int* a, int* b)
+{
+int tmp ;
+tmp = *a;
+*a = *b;
+*b = tmp;
+}
